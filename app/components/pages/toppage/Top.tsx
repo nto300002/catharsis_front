@@ -69,7 +69,7 @@ const Top = () => {
       )}
       <p className="mb-12" />
       <br />
-      <Navigation content="価値の的">
+      <Navigation content="あなたの価値">
         <Link href="/values">
           <span className="text-blue-400 hover:cursor-pointer">
             エクササイズはこちら
@@ -127,7 +127,7 @@ const Top = () => {
         </p>
       </Navigation>
       <br />
-      <Navigation content="問題の深掘り">
+      <Navigation content="苦しい気持ちに対処する">
         <Link href="/problems">
           <span className="text-blue-400 hover:cursor-pointer">
             エクササイズはこちら
@@ -146,96 +146,13 @@ const Top = () => {
         </ul>
       </Navigation>
       <br />
-      <Navigation content="活力vs苦悩">
-        <Link href="gains">
-          <span className="text-blue-400 hover:cursor-pointer">
-            エクササイズはこちら
-          </span>
-        </Link>
-        <p>
-          あなたにとっての
-          <span className="border-b-4 border-red-300">
-            ネガティブな感情やそこから生じる行動
-          </span>
-          というのは、あなたの活動の邪魔になっているかもしれませんが、同時に、あなたの
-          <span className="text-red-500">利益</span>になっていることもあります。
-        </p>
-        <br />
-        <p>
-          例えば、先延ばし癖の場合は、失敗を恐れるあまり、
-          重要な課題に取り組むのを避けている場合があります。
-        </p>
-        <p>
-          それは、<span className="text-red-500">失敗して傷つく</span>
-          よりも、問題を
-          <span className="text-red-500">見て 見ぬ振りをするほうが大事</span>
-          だと 無意識に判断してしまっている のかもしれません。それが
-          <span className="border-b-4 border-red-300">
-            先延ばし行為の メリット
-          </span>
-          とも言えます。
-        </p>
-        <br />
-        ここでは、そんなネガティブな行動があなたに何をもたらしているのか考えていきます。
-      </Navigation>
-      <br />
-      <Navigation content="点(DOTS)を結ぶ">
-        <Link href="/dots">
-          <span className="text-blue-400 hover:cursor-pointer">
-            エクササイズはこちら
-          </span>
-        </Link>
-        <h1>DOTSとはそれぞれの頭文字を取ったものです。</h1>
-        <br />
-        <ul>
-          <li>
-            <span className="border-b-4 border-red-300">
-              Distraction: 気を紛らす
-            </span>
-          </li>
-          <li>
-            <span className="border-b-4 border-red-300">
-              Opting out: 離れる
-            </span>
-          </li>
-          <li>
-            <span className="border-b-4 border-red-300">Thinking: 考える</span>
-          </li>
-          <li>
-            <span className="border-b-4 border-red-300">
-              Substances: 物質依存、その他
-            </span>
-          </li>
-        </ul>
-        <br />
-        嫌な考え、気持ちが思い浮かんだときに、それらにどのように対処したか記録してみましょう。
-      </Navigation>
-      <br />
-      <Navigation content="心をオープンにするエクササイズ">
+
+      <Navigation content="みんなのエクササイズ">
         <Link href="emotions">
           <span className="text-blue-400 hover:cursor-pointer">
             エクササイズはこちら
           </span>
         </Link>
-        <p>
-          上記で扱ってきた、自分にとって厄介な思考とは、ここでは
-          <span className="text-red-500">マインド</span>と呼びます。
-        </p>
-        <p>
-          悪者のような扱いかもしれませんが、単なる思考のことで、忌み嫌うものではありません。
-        </p>
-        <p>
-          ただ、自分を責めるマインドが
-          <span className="border-b-4 border-red-300">
-            自分の行動を支配し始める(
-            <span className="text-red-500">フュージョン</span>する)
-          </span>
-          と、ネガティブな感情、行動に囚われてしまい、価値のある人生を遠のけてしまうこともあります。
-        </p>
-        <p>
-          そこで、ここでは<span className="text-red-500">脱フュージョン</span>
-          と言って、厄介な思考と心の距離を置くエクササイズを行います。
-        </p>
       </Navigation>
 
       <p className="mt-36" />

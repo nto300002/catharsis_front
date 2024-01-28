@@ -54,3 +54,22 @@ export const InputRangeForm: React.FC<InputRangeProps> = ({
     </div>
   );
 };
+export const ImageGenerationInputForm: React.FC<InputProps> = ({
+  type,
+  children,
+  id,
+  name,
+}) => {
+  return (
+    <div className="text-md">
+      <p className="text-left">{children}</p>
+      <input
+        type={type}
+        id={id}
+        name={name}
+        className="border-gray-400 border-b-2"
+      />
+      <div className="mb-5" />
+    </div>
+  );
+};

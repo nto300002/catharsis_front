@@ -24,16 +24,10 @@ const HeaderNav = () => {
               aria-labelledby="options-menu"
             >
               <Link href="/values">
-                <p className={styleHover}>価値の的</p>
+                <p className={styleHover}>あなたの価値</p>
               </Link>
               <Link href="/problems">
-                <p className={styleHover}>問題の深掘り</p>
-              </Link>
-              <Link href="/gains">
-                <p className={styleHover}>活力vs苦悩</p>
-              </Link>
-              <Link href="/dots">
-                <p className={styleHover}>点(DOTS)を結ぶ</p>
+                <p className={styleHover}>苦しい気持ちに対処する</p>
               </Link>
               <Link href="/emotions">
                 <p className={styleHover}>心をオープンにする</p>

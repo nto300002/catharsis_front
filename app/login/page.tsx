@@ -1,27 +1,12 @@
-import React from 'react';
-import MainContent from '../components/layout/MainContent';
-import LoginForm from '../components/pages/login/LoginForm';
-import { LoginButton, LogoutButton } from '../components/auth/GoogleAuth';
-import { getServerSession } from 'next-auth';
-import { options } from '../Authoptions';
-import Provider from '../components/auth/Provider';
+import { useAuth0 } from '@auth0/auth0-react';
 
-const Login = async () => {
-  const session = await getServerSession(options);
+const Login = () => {
+  const { isAuthenticated } = useAuth0();
   return (
-    <MainContent>
-      {session?.user ? (
-        <>
-          <Provider>
-            <h1>ようこそ, {session.user && session.user.email}さん</h1>
-          </Provider>
-
-          <LogoutButton />
-        </>
-      ) : (
-        <LoginButton />
-      )}
-    </MainContent>
+    <div>
+      <h2>ログイン状態</h2>
+      {isAuthenticated ? <p>ログイン中です</p> : <p>ログアウトしています</p>}
+    </div>
   );
 };
 
